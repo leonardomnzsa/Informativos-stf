@@ -410,10 +410,10 @@ apply_custom_theme()
 display_logo()
 
 # Título do Dashboard
-st.title("Dashboard Interativo - Informativos STF (2021-2025)")
+st.title("Mentoria Prof. Leonardo Aquino - Informativos STF (2021-2025)")
 
 # Carregar os dados
-df = load_data("/home/ubuntu/Dados_InformativosSTF_filtrado.xlsx")
+df = load_data("Dados_InformativosSTF_filtrado.xlsx")
 
 if df is not None:
     # Criar abas para as diferentes seções
