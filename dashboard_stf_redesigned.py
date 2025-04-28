@@ -226,7 +226,7 @@ def apply_custom_theme():
 
 # Função para carregar a imagem da logo
 def get_logo_base64():
-    with open("/home/ubuntu/upload/White on Transparent 2.png", "rb") as img_file:
+    with open("White on Transparent 2.png", "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
 # Função para exibir a logo
